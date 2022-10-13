@@ -27,8 +27,8 @@ public:
             curr=curr->next;
             i++;
         }
-        if(curr->next==NULL) return NULL;
-        else if(curr->next->next==NULL) curr->next=NULL;
+       
+        if(curr->next->next==NULL) curr->next=NULL;
         else{
             curr->next=curr->next->next;
         }
