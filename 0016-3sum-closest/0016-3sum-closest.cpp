@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // 3 Sum Leetcode question type
     int threeSumClosest(vector<int>& nums, int target) {
         sort(nums.begin(),nums.end());
         vector<int>ans;
