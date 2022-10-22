@@ -47,7 +47,7 @@ public:
             slow=slow->next;
             fast=fast->next->next;
         }
-       temp->next=NULL;
+        temp->next=NULL;
         ListNode*l1=sortList(head);
         ListNode*l2=sortList(slow);
         return merge(l1,l2);
