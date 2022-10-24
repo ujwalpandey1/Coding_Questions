@@ -1,11 +1,6 @@
 class Solution {
 public:
-     bool isPalindrome(string str )
-    {
-        string s1=str;
-         reverse(str.begin(),str.end());
-         return s1==str;
-    }
+     
     int countSubstrings(string s) {
         int count=0;
        for(int i=0;i<s.size();i++){
