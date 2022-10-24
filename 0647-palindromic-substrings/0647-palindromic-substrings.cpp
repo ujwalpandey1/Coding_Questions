@@ -13,8 +13,8 @@ public:
         int r=i;
        
         while(l>=0&&r<s.size()&&s[l]==s[r]){
-            string temp=s.substr(l,r-l+1);
-            if(isPalindrome(temp)) count++;
+          
+           count++;
                 l--;
                 r++;
             
@@ -24,8 +24,8 @@ public:
         r=i+1;
         
         while(l>=0&&r<s.size()&&s[l]==s[r]){
-           string temp= s.substr(l,r-l+1);
-            if(isPalindrome(temp)) count++;
+          
+           count++;
                 l--;r++;
             
         }
