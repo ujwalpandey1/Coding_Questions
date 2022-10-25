@@ -20,7 +20,7 @@ public:
         int max_ele=*max_element(nums.begin(),nums.end());
         
         int start=1;
-        int end=max_ele;
+        int end=sum/k;
         int res;
         while(start<=end){
             int mid=(start+end)/2;
