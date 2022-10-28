@@ -27,7 +27,7 @@ public:
           ind=0;
           ind2=customers.size()-1;
       }
-        cout<<ind<<" "<<ind2;
+        
         for(i=ind;i<=ind2;i++) ans+=customers[i];
          
             for( i=0;i<ind;i++){
