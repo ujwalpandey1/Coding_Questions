@@ -11,7 +11,7 @@ public:
                 carry-=min(carry,mid-nums[i]);
             }
         }
-        return carry<=0;
+        return carry==0;
     }
     int minimizeArrayValue(vector<int>& nums) {
         int ans=0;
