@@ -20,7 +20,7 @@ public:
                     sum-=nums[i];
                   
                     i++;
-                     if(i==j) break;
+                     
                 }
             }
             j++;
