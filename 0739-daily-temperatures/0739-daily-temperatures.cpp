@@ -28,9 +28,7 @@ public:
                 ans[i]=ans[i]-i;
             }
         }
-        for(int i=0;i<ans.size();i++){
-            if(ans[i]<0) ans[i]=0;
-        }
+     
         return ans;
     }
 };
